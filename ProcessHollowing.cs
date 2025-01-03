@@ -32,7 +32,6 @@ public struct STARTUPINFO
     public IntPtr hStdError;
 }
 
-// Définir la structure PROCESS_INFORMATION
 [StructLayout(LayoutKind.Sequential)]
 public struct PROCESS_INFORMATION
 {
@@ -42,7 +41,7 @@ public struct PROCESS_INFORMATION
     public uint dwThreadId;
 }
 
-// Définir la structure PROCESS_BASIC_INFORMATION
+
 [StructLayout(LayoutKind.Sequential)]
 public struct PROCESS_BASIC_INFORMATION
 {
